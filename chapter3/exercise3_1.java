@@ -18,10 +18,10 @@ public class exercise3_1 {
 			System.out.println("The equation has two roots: " + r1 + "& "
 				+ r2);
 		}
-		else if (x == 0){
+		else if (x == 0) {
 			System.out.println("The equation has one root:" + r1 );
 		}
-		else (x < 0){
+		else {
 			System.out.println("The equation has no real roots.");
 		}
 	}
