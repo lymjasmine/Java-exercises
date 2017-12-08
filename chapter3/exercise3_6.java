@@ -12,8 +12,13 @@ public class exercise3_6 {
 		System.out.println("Enter weigt in pounds: ");
 		double weight = input.nextDouble();
 
-		System.out.println(" Enter height in inches:");
-		double height = input.nextDouble();
+		System.out.println(" Enter number of feets in height:");
+		double heightFeet = input.nextDouble();
+
+		System.out.println(" Enter number of inches in height:");
+		double heightInch = input.nextDouble();
+
+		double height = heightFeet * 12 + heightInch ;
 
 		final double KILOGRAMS_PER_POUND = 0.45359237;
 		final double METERS_PER_INCH = 0.0254;
